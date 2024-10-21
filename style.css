@@ -1,0 +1,17 @@
+.hero{
+
+    display: flex   ;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+
+
+}
+@media(max-width: 800px){
+    .hero-i{
+        display: none;
+    }
+    .hero-p{
+        width: 70%;
+    }
+}
